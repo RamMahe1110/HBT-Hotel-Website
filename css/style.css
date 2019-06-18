@@ -79,6 +79,14 @@ p {
   color: #333;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.clr {
+  clear: both;
+}
+
 /* Navbar */
 #navbar {
   background: #333;
@@ -93,6 +101,7 @@ p {
 #navbar h1 {
   float: left;
   padding: 20px 0 0 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 #navbar ul {
@@ -165,3 +174,22 @@ p {
 }
 
 /* Features */
+
+.box {
+  float: left;
+  width: 33.3333%;
+  height: 200px;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin: 0 0 10px 0;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
